@@ -1,0 +1,2 @@
+# smart-coin
+Smart Coin
