@@ -1,0 +1,117 @@
+2020-08-21 20:28:54 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.banking_detals' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/project/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/project/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.banking_detals' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/project/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/project/bin/cake.php:12
+
+
+
+2020-08-21 20:28:58 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.banking_detals' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/project/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/project/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.banking_detals' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/project/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/project/bin/cake.php:12
+
+
+
+2020-08-21 21:09:30 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.coins_on_aucton' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/project/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/project/bin/cake.php:12
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.coins_on_aucton' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:199
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:122
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:98
+- /var/www/project/vendor/cakephp/bake/src/Command/ModelCommand.php:81
+- /var/www/project/vendor/cakephp/bake/src/Command/AllCommand.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Console/BaseCommand.php:179
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:336
+- /var/www/project/vendor/cakephp/cakephp/src/Console/CommandRunner.php:171
+- /var/www/project/bin/cake.php:12
+
+
+
