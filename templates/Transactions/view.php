@@ -19,6 +19,10 @@
             <h3><?= h($transaction->id) ?></h3>
             <table>
                 <tr>
+                    <th><?= __('User') ?></th>
+                    <td><?= $transaction->has('user') ? $this->Html->link($transaction->user->id, ['controller' => 'Users', 'action' => 'view', $transaction->user->id]) : '' ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Id') ?></th>
                     <td><?= $this->Number->format($transaction->id) ?></td>
                 </tr>
@@ -27,15 +31,19 @@
                     <td><?= $this->Number->format($transaction->buyer_id) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Seller Id') ?></th>
-                    <td><?= $this->Number->format($transaction->seller_id) ?></td>
-                </tr>
-                <tr>
                     <th><?= __('Amount') ?></th>
                     <td><?= $this->Number->format($transaction->amount) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('modified') ?></th>
+                    <th><?= __('Waiting Time Id') ?></th>
+                    <td><?= $this->Number->format($transaction->waiting_time_id) ?></td>
+                </tr>
+                <tr>
+                    <th><?= __('Created') ?></th>
+                    <td><?= h($transaction->created) ?></td>
+                </tr>
+                <tr>
+                    <th><?= __('Modified') ?></th>
                     <td><?= h($transaction->modified) ?></td>
                 </tr>
             </table>

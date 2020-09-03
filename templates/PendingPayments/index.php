@@ -16,6 +16,7 @@
                     <th><?= $this->Paginator->sort('buyer') ?></th>
                     <th><?= $this->Paginator->sort('amount') ?></th>
                     <th><?= $this->Paginator->sort('paid') ?></th>
+                    <th><?= $this->Paginator->sort('waiting_period') ?></th>
                     <th><?= $this->Paginator->sort('created') ?></th>
                     <th><?= $this->Paginator->sort('modified') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
@@ -29,6 +30,7 @@
                     <td><?= $this->Number->format($pendingPayment->buyer) ?></td>
                     <td><?= $this->Number->format($pendingPayment->amount) ?></td>
                     <td><?= h($pendingPayment->paid) ?></td>
+                    <td><?= $this->Number->format($pendingPayment->waiting_period) ?></td>
                     <td><?= h($pendingPayment->created) ?></td>
                     <td><?= h($pendingPayment->modified) ?></td>
                     <td class="actions">

@@ -34,4 +34,15 @@ class CoinsOnAuction extends Entity
         'modified' => true,
         'user' => true
     ];
+
+    protected function _getFormattedDisplayTitle()
+    {
+        $val = $this->user->banking_details[0]->bank->name;
+        return $val;
+    }
+
+    protected function _getAvailableCoins()
+    {
+        return 'R' . $this->amount;
+    }
 }

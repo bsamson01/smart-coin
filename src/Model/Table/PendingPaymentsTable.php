@@ -74,6 +74,11 @@ class PendingPaymentsTable extends Table
             ->boolean('paid')
             ->allowEmptyString('paid');
 
+        $validator
+            ->nonNegativeInteger('waiting_period')
+            ->requirePresence('waiting_period', 'create')
+            ->notEmptyString('waiting_period');
+
         return $validator;
     }
 }

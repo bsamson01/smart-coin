@@ -59,8 +59,8 @@ class TransactionsController extends AppController
             }
             $this->Flash->error(__('The transaction could not be saved. Please, try again.'));
         }
-        $buyers = $sellers = $this->Transactions->Users->find('list', ['limit' => 200]);
-        $this->set(compact('transaction', 'buyers', 'sellers'));
+        $users = $this->Transactions->Users->find('list', ['limit' => 200]);
+        $this->set(compact('transaction', 'users'));
     }
 
     /**
@@ -84,8 +84,8 @@ class TransactionsController extends AppController
             }
             $this->Flash->error(__('The transaction could not be saved. Please, try again.'));
         }
-        $buyers = $sellers = $this->Transactions->Buyers->find('list', ['limit' => 200]);
-        $this->set(compact('transaction', 'buyers', 'sellers'));
+        $users = $this->Transactions->Users->find('list', ['limit' => 200]);
+        $this->set(compact('transaction', 'users'));
     }
 
     /**

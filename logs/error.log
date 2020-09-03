@@ -3506,3 +3506,468 @@ Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
 Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
 [main] - ROOT/webroot/index.php, line 40
 
+2020-09-03 18:17:01 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/auction.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/project/templates/Pages/auction.php`
+- `/var/www/project/vendor/cakephp/cakephp/templates/Pages/auction.php`
+ in Pages/auction.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pages/auction.php',
+  'paths' => 
+  array (
+    0 => '/var/www/project/templates/',
+    1 => '/var/www/project/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:761
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-09-03 18:21:52 Error: [ParseError] syntax error, unexpected 'in' (T_STRING) in /var/www/project/templates/Pages/auction.php on line 1
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:764
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-09-03 18:22:44 Error: [TypeError] Argument 1 passed to Cake\ORM\Entity::get() must be of the type string, int given, called in /var/www/project/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php on line 604 in /var/www/project/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php on line 275
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php:604
+- /var/www/project/templates/Pages/auction.php:4
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1176
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:764
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-09-03 19:06:42 Error: [ArgumentCountError] Too few arguments to function Cake\ORM\Table::newEntity(), 0 passed in /var/www/project/src/Controller/PagesController.php on line 79 and at least 1 expected in /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php on line 2708
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-09-03 19:11:52 Error: [ParseError] syntax error, unexpected '$this' (T_VARIABLE) in /var/www/project/src/Controller/PagesController.php on line 85
+Stack Trace:
+- /var/www/project/vendor/composer/ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:44
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-09-03 19:12:08 Error: [ParseError] syntax error, unexpected ',' in /var/www/project/src/Controller/PagesController.php on line 84
+Stack Trace:
+- /var/www/project/vendor/composer/ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:44
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-09-03 19:12:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php line=954 in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-03 19:12:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-03 19:12:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-03 19:12:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-03 19:12:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-03 19:12:46 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /var/www/project/templates/Pages/auction.php on line 8
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:764
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-09-03 19:13:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/project/tmp/cache/models/myapp_cake_model_default_pending_payments): failed to open stream: Permission denied in [/var/www/project/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\View\Form\EntityContext::type() - CORE/src/View/Form/EntityContext.php, line 697
+Cake\View\Form\EntityContext::isRequired() - CORE/src/View/Form/EntityContext.php, line 511
+Cake\View\Helper\FormHelper::setRequiredAndCustomValidity() - CORE/src/View/Helper/FormHelper.php, line 1346
+Cake\View\Helper\FormHelper::_magicOptions() - CORE/src/View/Helper/FormHelper.php, line 1316
+Cake\View\Helper\FormHelper::_parseOptions() - CORE/src/View/Helper/FormHelper.php, line 1212
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1047
+include - ROOT/templates/Pages/auction.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-03 19:13:21 Warning: Warning (512): SplFileInfo::openFile(/var/www/project/tmp/cache/models/myapp_cake_model_default_pending_payments) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/project/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\View\Form\EntityContext::type() - CORE/src/View/Form/EntityContext.php, line 697
+Cake\View\Form\EntityContext::isRequired() - CORE/src/View/Form/EntityContext.php, line 511
+Cake\View\Helper\FormHelper::setRequiredAndCustomValidity() - CORE/src/View/Helper/FormHelper.php, line 1346
+Cake\View\Helper\FormHelper::_magicOptions() - CORE/src/View/Helper/FormHelper.php, line 1316
+Cake\View\Helper\FormHelper::_parseOptions() - CORE/src/View/Helper/FormHelper.php, line 1212
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1047
+include - ROOT/templates/Pages/auction.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-03 19:14:31 Warning: Warning (512): SplFileInfo::openFile(/var/www/project/tmp/cache/models/myapp_cake_model_default_pending_payments): failed to open stream: Permission denied in [/var/www/project/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::get() - CORE/src/Cache/Engine/FileEngine.php, line 164
+DebugKit\Cache\Engine\DebugEngine::get() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 180
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 78
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\View\Form\EntityContext::type() - CORE/src/View/Form/EntityContext.php, line 697
+Cake\View\Form\EntityContext::isRequired() - CORE/src/View/Form/EntityContext.php, line 511
+Cake\View\Helper\FormHelper::setRequiredAndCustomValidity() - CORE/src/View/Helper/FormHelper.php, line 1346
+Cake\View\Helper\FormHelper::_magicOptions() - CORE/src/View/Helper/FormHelper.php, line 1316
+Cake\View\Helper\FormHelper::_parseOptions() - CORE/src/View/Helper/FormHelper.php, line 1212
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1047
+include - ROOT/templates/Pages/auction.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-03 19:14:31 Warning: Warning (512): SplFileInfo::openFile(/var/www/project/tmp/cache/models/myapp_cake_model_default_pending_payments) [<a href='https://secure.php.net/splfileinfo.openfile'>splfileinfo.openfile</a>]: failed to open stream: Permission denied in [/var/www/project/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 372]
+Request URL: /auction
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 372
+Cake\Cache\Engine\FileEngine::set() - CORE/src/Cache/Engine/FileEngine.php, line 122
+DebugKit\Cache\Engine\DebugEngine::set() - ROOT/vendor/cakephp/debug_kit/src/Cache/Engine/DebugEngine.php, line 150
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 85
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 509
+Cake\View\Form\EntityContext::type() - CORE/src/View/Form/EntityContext.php, line 697
+Cake\View\Form\EntityContext::isRequired() - CORE/src/View/Form/EntityContext.php, line 511
+Cake\View\Helper\FormHelper::setRequiredAndCustomValidity() - CORE/src/View/Helper/FormHelper.php, line 1346
+Cake\View\Helper\FormHelper::_magicOptions() - CORE/src/View/Helper/FormHelper.php, line 1316
+Cake\View\Helper\FormHelper::_parseOptions() - CORE/src/View/Helper/FormHelper.php, line 1212
+Cake\View\Helper\FormHelper::control() - CORE/src/View/Helper/FormHelper.php, line 1047
+include - ROOT/templates/Pages/auction.php, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+

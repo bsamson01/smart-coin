@@ -11,8 +11,6 @@ use Cake\Validation\Validator;
 /**
  * Transactions Model
  *
- * @property \App\Model\Table\UsersTable&\Cake\ORM\Association\BelongsTo $Users
- *
  * @method \App\Model\Entity\Transaction newEmptyEntity()
  * @method \App\Model\Entity\Transaction newEntity(array $data, array $options = [])
  * @method \App\Model\Entity\Transaction[] newEntities(array $data, array $options = [])
@@ -47,12 +45,16 @@ class TransactionsTable extends Table
 
         $this->addBehavior('Timestamp');
 
-        $this->belongsTo('Users', [
+        $this->belongsTo('Buyers', [
             'foreignKey' => 'buyer_id',
             'joinType' => 'INNER',
         ]);
-        $this->belongsTo('Users', [
+        $this->belongsTo('Sellers', [
             'foreignKey' => 'seller_id',
+            'joinType' => 'INNER',
+        ]);
+        $this->belongsTo('WaitingTimes', [
+            'foreignKey' => 'waiting_time_id',
             'joinType' => 'INNER',
         ]);
     }
@@ -73,10 +75,6 @@ class TransactionsTable extends Table
             ->nonNegativeInteger('amount')
             ->notEmptyString('amount');
 
-        $validator
-            ->dateTime('modified')
-            ->allowEmptyDateTime('modified');
-
         return $validator;
     }
 
@@ -89,8 +87,9 @@ class TransactionsTable extends Table
      */
     public function buildRules(RulesChecker $rules): RulesChecker
     {
-        $rules->add($rules->existsIn(['buyer_id'], 'Users'), ['errorField' => 'buyer_id']);
-        $rules->add($rules->existsIn(['seller_id'], 'Users'), ['errorField' => 'seller_id']);
+        $rules->add($rules->existsIn(['buyer_id'], 'Buyers'), ['errorField' => 'buyer_id']);
+        $rules->add($rules->existsIn(['seller_id'], 'Sellers'), ['errorField' => 'seller_id']);
+        $rules->add($rules->existsIn(['waiting_time_id'], 'WaitingTimes'), ['errorField' => 'waiting_time_id']);
 
         return $rules;
     }

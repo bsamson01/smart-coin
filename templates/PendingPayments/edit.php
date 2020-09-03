@@ -26,6 +26,7 @@
                     echo $this->Form->control('buyer');
                     echo $this->Form->control('amount');
                     echo $this->Form->control('paid');
+                    echo $this->Form->control('waiting_period');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

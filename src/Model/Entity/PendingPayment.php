@@ -13,6 +13,7 @@ use Cake\ORM\Entity;
  * @property int $buyer
  * @property int $amount
  * @property bool|null $paid
+ * @property int $waiting_period
  * @property \Cake\I18n\FrozenTime|null $created
  * @property \Cake\I18n\FrozenTime|null $modified
  */
@@ -32,6 +33,7 @@ class PendingPayment extends Entity
         'buyer' => true,
         'amount' => true,
         'paid' => true,
+        'waiting_period' => true,
         'created' => true,
         'modified' => true,
     ];

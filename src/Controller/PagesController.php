@@ -70,4 +70,18 @@ class PagesController extends AppController
             throw new NotFoundException();
         }
     }
+
+    public function auction()
+    {
+        $this->loadModel('CoinsOnAuction');
+        $this->loadModel('PendingPayments');
+        $auctions = $this->CoinsOnAuction->find('all')->contain(['Users', 'Users.BankingDetails', 'Users.BankingDetails.Banks'])->toArray();
+        $bid = $this->PendingPayments->newEmptyEntity();
+        $waitingTimeOptions = [
+            1 => '3 days',
+            2 => '5 days',
+            3 =>'10 days'
+        ];
+        $this->set(compact('auctions', 'bid', 'waitingTimeOptions'));
+    }
 }

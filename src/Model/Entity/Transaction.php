@@ -14,9 +14,9 @@ use Cake\ORM\Entity;
  * @property int $amount
  * @property \Cake\I18n\FrozenTime|null $created
  * @property \Cake\I18n\FrozenTime|null $modified
+ * @property int $waiting_time_id
  *
- * @property \App\Model\Entity\User $buyer
- * @property \App\Model\Entity\User $seller
+ * @property \App\Model\Entity\User $user
  */
 class Transaction extends Entity
 {
@@ -35,7 +35,7 @@ class Transaction extends Entity
         'amount' => true,
         'created' => true,
         'modified' => true,
-        'buyer' => true,
-        'seller' => true,
+        'waiting_time_id' => true,
+        'user' => true,
     ];
 }

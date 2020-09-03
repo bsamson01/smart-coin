@@ -35,6 +35,10 @@
                     <td><?= $this->Number->format($pendingPayment->amount) ?></td>
                 </tr>
                 <tr>
+                    <th><?= __('Waiting Period') ?></th>
+                    <td><?= $this->Number->format($pendingPayment->waiting_period) ?></td>
+                </tr>
+                <tr>
                     <th><?= __('Created') ?></th>
                     <td><?= h($pendingPayment->created) ?></td>
                 </tr>

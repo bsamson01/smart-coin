@@ -23,8 +23,9 @@
                 <legend><?= __('Edit Transaction') ?></legend>
                 <?php
                     echo $this->Form->control('buyer_id');
-                    echo $this->Form->control('seller_id');
+                    echo $this->Form->control('seller_id', ['options' => $users]);
                     echo $this->Form->control('amount');
+                    echo $this->Form->control('waiting_time_id');
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

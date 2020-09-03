@@ -23,6 +23,7 @@ class TransactionsFixture extends TestFixture
         'amount' => ['type' => 'integer', 'length' => null, 'unsigned' => true, 'null' => false, 'default' => '0', 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'created' => ['type' => 'timestamp', 'length' => null, 'precision' => null, 'null' => true, 'default' => null, 'comment' => ''],
         'modified' => ['type' => 'timestamp', 'length' => null, 'precision' => null, 'null' => true, 'default' => null, 'comment' => ''],
+        'waiting_time_id' => ['type' => 'integer', 'length' => null, 'unsigned' => true, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['id'], 'length' => []],
         ],
@@ -45,8 +46,9 @@ class TransactionsFixture extends TestFixture
                 'buyer_id' => 1,
                 'seller_id' => 1,
                 'amount' => 1,
-                'created' => 1598044258,
-                'modified' => 1598044258,
+                'created' => 1599159941,
+                'modified' => 1599159941,
+                'waiting_time_id' => 1,
             ],
         ];
         parent::init();
