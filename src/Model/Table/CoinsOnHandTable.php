@@ -74,6 +74,10 @@ class CoinsOnHandTable extends Table
             ->allowEmptyString('sell_amount');
 
         $validator
+            ->integer('waiting_period')
+            ->allowEmptyString('waiting_period');
+
+        $validator
             ->dateTime('sell_date')
             ->allowEmptyDateTime('sell_date');
 

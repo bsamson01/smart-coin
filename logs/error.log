@@ -4137,3 +4137,1587 @@ Referer URL: http://localhost/auction
 Client IP: 172.18.0.1
 
 
+2020-09-14 18:42:21 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+
+2020-09-14 18:42:35 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+
+2020-09-14 18:55:38 Error: [Error] Call to a member function toArray() on array in /var/www/project/src/Controller/ProfileController.php on line 36
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 18:55:55 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php line=954 in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 18:55:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 18:55:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 18:55:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 19:33:44 Error: [Cake\View\Exception\MissingHelperException] Helper class htmlHelper could not be found. in /var/www/project/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'htmlHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1089
+- /var/www/project/templates/element/confirm_payments.php:14
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1176
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1668
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:655
+- /var/www/project/templates/Profile/index.php:3
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1176
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:764
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:34:01 Warning: Warning (2): rawurlencode() expects parameter 1 to be string, array given in [/var/www/project/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 766]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+rawurlencode - [internal], line ??
+array_map - [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() - CORE/src/Routing/Route/Route.php, line 766
+Cake\Routing\Route\Route::match() - CORE/src/Routing/Route/Route.php, line 726
+Cake\Routing\Route\DashedRoute::match() - CORE/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() - CORE/src/Routing/RouteCollection.php, line 335
+Cake\Routing\Router::url() - CORE/src/Routing/Router.php, line 495
+Cake\View\Helper\UrlHelper::build() - CORE/src/View/Helper/UrlHelper.php, line 51
+Cake\View\Helper\HtmlHelper::link() - CORE/src/View/Helper/HtmlHelper.php, line 257
+include - ROOT/templates/element/confirm_payments.php, line 14
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1668
+Cake\View\View::element() - CORE/src/View/View.php, line 655
+include - ROOT/templates/Profile/index.php, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 19:34:01 Warning: Warning (2): rawurlencode() expects parameter 1 to be string, array given in [/var/www/project/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 766]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+rawurlencode - [internal], line ??
+array_map - [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() - CORE/src/Routing/Route/Route.php, line 766
+Cake\Routing\Route\Route::match() - CORE/src/Routing/Route/Route.php, line 726
+Cake\Routing\Route\DashedRoute::match() - CORE/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() - CORE/src/Routing/RouteCollection.php, line 335
+Cake\Routing\Router::url() - CORE/src/Routing/Router.php, line 495
+Cake\View\Helper\UrlHelper::build() - CORE/src/View/Helper/UrlHelper.php, line 51
+Cake\View\Helper\HtmlHelper::link() - CORE/src/View/Helper/HtmlHelper.php, line 257
+include - ROOT/templates/element/confirm_payments.php, line 14
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1668
+Cake\View\View::element() - CORE/src/View/View.php, line 655
+include - ROOT/templates/Profile/index.php, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 19:34:01 Warning: Warning (2): rawurlencode() expects parameter 1 to be string, array given in [/var/www/project/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 766]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+rawurlencode - [internal], line ??
+array_map - [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() - CORE/src/Routing/Route/Route.php, line 766
+Cake\Routing\Route\Route::match() - CORE/src/Routing/Route/Route.php, line 726
+Cake\Routing\Route\DashedRoute::match() - CORE/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() - CORE/src/Routing/RouteCollection.php, line 335
+Cake\Routing\Router::url() - CORE/src/Routing/Router.php, line 495
+Cake\View\Helper\UrlHelper::build() - CORE/src/View/Helper/UrlHelper.php, line 51
+Cake\View\Helper\HtmlHelper::link() - CORE/src/View/Helper/HtmlHelper.php, line 257
+include - ROOT/templates/element/confirm_payments.php, line 14
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1668
+Cake\View\View::element() - CORE/src/View/View.php, line 655
+include - ROOT/templates/Profile/index.php, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 19:34:01 Warning: Warning (2): rawurlencode() expects parameter 1 to be string, array given in [/var/www/project/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 766]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+rawurlencode - [internal], line ??
+array_map - [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() - CORE/src/Routing/Route/Route.php, line 766
+Cake\Routing\Route\Route::match() - CORE/src/Routing/Route/Route.php, line 726
+Cake\Routing\Route\DashedRoute::match() - CORE/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() - CORE/src/Routing/RouteCollection.php, line 335
+Cake\Routing\Router::url() - CORE/src/Routing/Router.php, line 495
+Cake\View\Helper\UrlHelper::build() - CORE/src/View/Helper/UrlHelper.php, line 51
+Cake\View\Helper\HtmlHelper::link() - CORE/src/View/Helper/HtmlHelper.php, line 257
+include - ROOT/templates/element/confirm_payments.php, line 14
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1668
+Cake\View\View::element() - CORE/src/View/View.php, line 655
+include - ROOT/templates/Profile/index.php, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 19:34:01 Warning: Warning (2): rawurlencode() expects parameter 1 to be string, array given in [/var/www/project/vendor/cakephp/cakephp/src/Routing/Route/Route.php, line 766]
+Request URL: /profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+rawurlencode - [internal], line ??
+array_map - [internal], line ??
+Cake\Routing\Route\Route::_writeUrl() - CORE/src/Routing/Route/Route.php, line 766
+Cake\Routing\Route\Route::match() - CORE/src/Routing/Route/Route.php, line 726
+Cake\Routing\Route\DashedRoute::match() - CORE/src/Routing/Route/DashedRoute.php, line 105
+Cake\Routing\RouteCollection::match() - CORE/src/Routing/RouteCollection.php, line 335
+Cake\Routing\Router::url() - CORE/src/Routing/Router.php, line 495
+Cake\View\Helper\UrlHelper::build() - CORE/src/View/Helper/UrlHelper.php, line 51
+Cake\View\Helper\HtmlHelper::link() - CORE/src/View/Helper/HtmlHelper.php, line 257
+include - ROOT/templates/element/confirm_payments.php, line 14
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1668
+Cake\View\View::element() - CORE/src/View/View.php, line 655
+include - ROOT/templates/Profile/index.php, line 3
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1176
+Cake\View\View::_render() - CORE/src/View/View.php, line 1134
+Cake\View\View::render() - CORE/src/View/View.php, line 764
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 694
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 536
+Cake\Controller\ControllerFactory::invoke() - CORE/src/Controller/ControllerFactory.php, line 79
+Cake\Http\BaseApplication::handle() - CORE/src/Http/BaseApplication.php, line 251
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 77
+Cake\Http\Middleware\CsrfProtectionMiddleware::process() - CORE/src/Http/Middleware/CsrfProtectionMiddleware.php, line 156
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Middleware\BodyParserMiddleware::process() - CORE/src/Http/Middleware/BodyParserMiddleware.php, line 159
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\RoutingMiddleware::process() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 166
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Routing\Middleware\AssetMiddleware::process() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 68
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Error\Middleware\ErrorHandlerMiddleware::process() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 121
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Authentication\Middleware\AuthenticationMiddleware::process() - ROOT/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php, line 124
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+DebugKit\Middleware\DebugKitMiddleware::process() - ROOT/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php, line 60
+Cake\Http\Runner::handle() - CORE/src/Http/Runner.php, line 73
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 19:34:38 Error: [Cake\Controller\Exception\MissingActionException] Action ProfileController::confirmPayment() could not be found, or is not accessible. in /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php on line 506
+Exception Attributes: array (
+  'controller' => 'ProfileController',
+  'action' => 'confirmPayment',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payment
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:36:05 Error: [Cake\View\Exception\MissingTemplateException] Template file `Profile/confirm_payment.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/project/templates/Profile/confirm_payment.php`
+- `/var/www/project/vendor/cakephp/cakephp/templates/Profile/confirm_payment.php`
+ in Profile/confirm_payment.php on line 1354
+Exception Attributes: array (
+  'file' => 'Profile/confirm_payment.php',
+  'paths' => 
+  array (
+    0 => '/var/www/project/templates/',
+    1 => '/var/www/project/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:761
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payment
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:36:45 Error: [Error] Call to undefined function App\Controller\redirect() in /var/www/project/src/Controller/ProfileController.php on line 47
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payment
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:45:04 Error: [ParseError] syntax error, unexpected '$builder' (T_VARIABLE) in /var/www/project/config/routes.php on line 76
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:45:04 Error: [ParseError] syntax error, unexpected '$builder' (T_VARIABLE) in /var/www/project/config/routes.php on line 76
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/7cf5e3c5-ee52-494f-bee7-e917c1cb976c
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:45:07 Error: [ParseError] syntax error, unexpected '$builder' (T_VARIABLE) in /var/www/project/config/routes.php on line 76
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:45:07 Error: [ParseError] syntax error, unexpected '$builder' (T_VARIABLE) in /var/www/project/config/routes.php on line 76
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/299b633f-d0f8-4ac2-b208-e82ceb5ce959
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:45:26 Error: [TypeError] Argument 1 passed to Cake\Routing\Route\Route::setPass() must be of the type array, string given, called in /var/www/project/config/routes.php on line 61 in /var/www/project/vendor/cakephp/cakephp/src/Routing/Route/Route.php on line 222
+Stack Trace:
+- /var/www/project/config/routes.php:61
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:934
+- /var/www/project/config/routes.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:186
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:45:26 Error: [TypeError] Argument 1 passed to Cake\Routing\Route\Route::setPass() must be of the type array, string given, called in /var/www/project/config/routes.php on line 61 in /var/www/project/vendor/cakephp/cakephp/src/Routing/Route/Route.php on line 222
+Stack Trace:
+- /var/www/project/config/routes.php:61
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/RouteBuilder.php:934
+- /var/www/project/config/routes.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:186
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:113
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:85
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:133
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /debug-kit/toolbar/e6459355-3e24-4c67-8a13-ef3a9c85c56b
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:47:56 Error: [BadMethodCallException] Method "getParams()" does not exist in /var/www/project/vendor/cakephp/cakephp/src/Http/ServerRequest.php on line 450
+Stack Trace:
+- /var/www/project/src/Controller/ProfileController.php:47
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payment
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:48:13 Error: [Error] Cannot access protected property Cake\Http\ServerRequest::$params in /var/www/project/src/Controller/ProfileController.php on line 47
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payment
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:53:36 Error: [Cake\Controller\Exception\MissingActionException] Action ProfileController::confirmPayments() could not be found, or is not accessible. in /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php on line 506
+Exception Attributes: array (
+  'controller' => 'ProfileController',
+  'action' => 'confirmPayments',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments?paymentId=2
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:54:34 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 311
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:55:23 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 311
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:56:36 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 311
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:56:52 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 311
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:57:41 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 311
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 19:59:29 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token from either the request body or request headers did not match or is missing. in /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php on line 311
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:152
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:02:35 Error: [Cake\Http\Exception\MissingControllerException] Controller class ConfirmPayments could not be found. in /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'ConfirmPayments',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:03:35 Error: [Cake\Http\Exception\MissingControllerException] Controller class ConfirmPayments could not be found. in /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'ConfirmPayments',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /confirmPayments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:34:35 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:34:39 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:34:57 Error: [ParseError] syntax error, unexpected 'if' (T_IF) in /var/www/project/src/Controller/ProfileController.php on line 48
+Stack Trace:
+- /var/www/project/vendor/composer/ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:44
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:40:45 Error: [BadMethodCallException] Unknown method "FindByIdAndSellerAndPaid" called on App\Model\Table\PendingPaymentsTable in /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php on line 2583
+Stack Trace:
+- /var/www/project/src/Controller/ProfileController.php:52
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:41:46 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.buyers' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Association.php:473
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Rule/ExistsIn.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RuleInvoker.php:117
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:300
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:257
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:233
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesAwareTrait.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1896
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1835
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1535
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1536
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1836
+- /var/www/project/src/Controller/ProfileController.php:64
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.buyers' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:74
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Association.php:473
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Rule/ExistsIn.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RuleInvoker.php:117
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:300
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:257
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:233
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesAwareTrait.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1896
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1835
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1535
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1536
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1836
+- /var/www/project/src/Controller/ProfileController.php:64
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:45:01 Error: [ParseError] syntax error, unexpected ';', expecting ')' in /var/www/project/src/Controller/ProfileController.php on line 64
+Stack Trace:
+- /var/www/project/vendor/composer/ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:44
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:48:44 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.waiting_times' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 142
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Association.php:473
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Rule/ExistsIn.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RuleInvoker.php:117
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:300
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:257
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:233
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesAwareTrait.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1896
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1835
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1535
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1536
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1836
+- /var/www/project/src/Controller/ProfileController.php:65
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'smart-coin.waiting_times' doesn't exist in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:74
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:310
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:313
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:140
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/Collection.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php:84
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:509
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:649
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Association.php:473
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Rule/ExistsIn.php:100
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RuleInvoker.php:117
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:300
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:257
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesChecker.php:233
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/RulesAwareTrait.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1896
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1835
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1535
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1536
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1836
+- /var/www/project/src/Controller/ProfileController.php:65
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:49:48 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'waiting_time_id' doesn't have a default value in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:74
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:341
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:344
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:2042
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1934
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1835
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1535
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1536
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1836
+- /var/www/project/src/Controller/ProfileController.php:65
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:50:53 Error: [Error] Call to a member function findById() on null in /var/www/project/src/Controller/ProfileController.php on line 67
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:50:53 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php line=954 in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 20:50:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 20:50:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 20:50:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-09-14 20:52:03 Error: [InvalidArgumentException] Expression is missing operator (IS, IS NOT) with `null` value. in /var/www/project/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php on line 784
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php:713
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php:133
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:2261
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:1005
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:811
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:2482
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1264
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:2559
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:2580
+- /var/www/project/src/Controller/ProfileController.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:53:21 Error: [InvalidArgumentException] Expression is missing operator (IS, IS NOT) with `null` value. in /var/www/project/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php on line 784
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php:713
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Expression/QueryExpression.php:133
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:2261
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:1005
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:811
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:2482
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1264
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:2559
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:2580
+- /var/www/project/src/Controller/ProfileController.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:54:53 Error: [Error] Class 'App\Controller\DateTime' not found in /var/www/project/src/Controller/ProfileController.php on line 74
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-14 20:55:47 Error: [TypeError] DateTime::__construct() expects parameter 1 to be string, int given in /var/www/project/src/Controller/ProfileController.php on line 74
+Stack Trace:
+- /var/www/project/src/Controller/ProfileController.php:74
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+

@@ -45,15 +45,15 @@ class TransactionsTable extends Table
 
         $this->addBehavior('Timestamp');
 
-        $this->belongsTo('Buyers', [
+        $this->belongsTo('Users', [
             'foreignKey' => 'buyer_id',
             'joinType' => 'INNER',
         ]);
-        $this->belongsTo('Sellers', [
+        $this->belongsTo('Users', [
             'foreignKey' => 'seller_id',
             'joinType' => 'INNER',
         ]);
-        $this->belongsTo('WaitingTimes', [
+        $this->belongsTo('WaitingPeriods', [
             'foreignKey' => 'waiting_time_id',
             'joinType' => 'INNER',
         ]);
@@ -87,9 +87,9 @@ class TransactionsTable extends Table
      */
     public function buildRules(RulesChecker $rules): RulesChecker
     {
-        $rules->add($rules->existsIn(['buyer_id'], 'Buyers'), ['errorField' => 'buyer_id']);
-        $rules->add($rules->existsIn(['seller_id'], 'Sellers'), ['errorField' => 'seller_id']);
-        $rules->add($rules->existsIn(['waiting_time_id'], 'WaitingTimes'), ['errorField' => 'waiting_time_id']);
+        $rules->add($rules->existsIn(['buyer_id'], 'Users'), ['errorField' => 'buyer_id']);
+        $rules->add($rules->existsIn(['seller_id'], 'Users'), ['errorField' => 'seller_id']);
+        $rules->add($rules->existsIn(['waiting_time_id'], 'WaitingPeriods'), ['errorField' => 'waiting_time_id']);
 
         return $rules;
     }

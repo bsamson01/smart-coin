@@ -15,6 +15,10 @@ class ProfileController extends AppController
     {
         $this->loadModel('Users');
         $this->loadModel('CoinsOnAuction');
+        $this->loadModel('PendingPayments');
+        $this->loadModel('CoinsOnHand');
+        $this->loadModel('Transactions');
+        $this->loadModel('WaitingPeriods');
         parent::initialize();
 
         $email = $this->Authentication->getIdentityData('email');
@@ -31,10 +35,53 @@ class ProfileController extends AppController
         $user = $this->user;
         $this->CoinsOnAuction->virtualFields['totalCoins'] = 'SUM(amount)';
         $coinsOnAuction = $this->CoinsOnAuction->find('all')->toArray();
-        $transactions = $this->Users->getUserTransactions($user->id);
-        dd($transactions);
+        $transactions = $this->Users->getUserTransactions($this->user->id);
+        $toPay = $this->PendingPayments->findByBuyer($this->user->id)->toArray();
+        $toBePaid = $this->PendingPayments->findBySeller($this->user->id)->toArray();
+        $onSale = $this->CoinsOnAuction->findByUserId($this->user->id)->toArray();
+        $onHand = $this->CoinsOnHand->findByUserId($this->user->id)->toArray();
 
-        $this->set(compact('user', 'coinsOnAuction'));
+        $this->set(compact('user', 'coinsOnAuction', 'transactions' , 'toPay', 'toBePaid', 'onSale', 'onHand'));
+    }
+
+    public function confirmPayments()
+    {
+
+        if ($this->request->is(['post', 'put'])) {
+            $id = $this->request->getData('id');
+
+            if ($id) {
+                $id = (int)$id;
+                $payment = $this->PendingPayments->findByIdAndSellerAndPaid($id, $this->user->id, false)->first();
+                if ($payment) {
+                    $payment->paid = true;
+                    $this->PendingPayments->save($payment);
+                    $transactionData = [
+                        'buyer_id' => $payment->buyer,
+                        'seller_id' => $payment->seller,
+                        'amount' => $payment->amount,
+                        'waiting_time_id' => $payment->waiting_period
+                    ];
+                    $transaction = $this->Transactions->newEmptyEntity();
+                    $this->Transactions->patchEntity($transaction, $transactionData);
+                    $this->Transactions->save($transaction);
+                    $waitingPeriod = $this->WaitingPeriods->findById($payment->waiting_period)->first();
+                    $coinsOnHandData = [
+                        'user_id' => $payment->buyer,
+                        'amount' => $payment->amount,
+                        'waiting_period' => $payment->waiting_period,
+                        'sell_amount' => $payment->amount * $waitingPeriod->percentage_gain / 100,
+                        'sell_date' => new \DateTime('+'.$waitingPeriod->days . ' days')
+                    ];
+                    $coinsOnHand = $this->CoinsOnHand->newEmptyEntity();
+                    $this->CoinsOnHand->patchEntity($coinsOnHand, $coinsOnHandData);
+                    $this->CoinsOnHand->save($coinsOnHand);
+                    $payment = $this->PendingPayments->get($payment->id);
+                    $this->PendingPayments->delete($payment);
+                }
+            }
+        }
+        return $this->redirect($this->referer());
     }
 
     /**

@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS `coins_on_hand` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `user_id` int(11) unsigned NOT NULL DEFAULT '0',
   `amount` int(10) unsigned NOT NULL DEFAULT '0',
-  `wating_period` int(11) DEFAULT NULL,
+  `waiting_period` int(11) DEFAULT NULL,
   `sell_amount` int(11) DEFAULT '0',
   `sell_date` timestamp NULL DEFAULT NULL,
   `created` timestamp NULL DEFAULT NULL,
@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS `coins_on_hand` (
 -- Dumping data for table smart-coin.coins_on_hand: ~0 rows (approximately)
 DELETE FROM `coins_on_hand`;
 /*!40000 ALTER TABLE `coins_on_hand` DISABLE KEYS */;
-INSERT INTO `coins_on_hand` (`id`, `user_id`, `amount`, `wating_period`, `sell_amount`, `sell_date`, `created`, `modfied`) VALUES
+INSERT INTO `coins_on_hand` (`id`, `user_id`, `amount`, `waiting_period`, `sell_amount`, `sell_date`, `created`, `modfied`) VALUES
 	(1, 4, 200, 3, 300, '2020-08-25 17:32:35', '2020-08-22 16:32:45', '2020-08-22 16:32:47');
 /*!40000 ALTER TABLE `coins_on_hand` ENABLE KEYS */;
 
