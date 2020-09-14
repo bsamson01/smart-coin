@@ -56,6 +56,7 @@ $routes->scope('/', function (RouteBuilder $builder) {
      * ...and connect the rest of 'Pages' controller's URLs.
      */
     $builder->connect('/pages/*', ['controller' => 'Pages', 'action' => 'display']);
+    $builder->connect('/place-bid', ['controller' => 'Pages', 'action' => 'placeBid']);
     $builder->connect('/auction', ['controller' => 'Pages', 'action' => 'auction', 'auction']);
 
     /*

@@ -3971,3 +3971,169 @@ Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 58
 Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
 [main] - ROOT/webroot/index.php, line 40
 
+2020-09-03 19:28:52 Error: [Cake\Controller\Exception\MissingActionException] Action PagesController::placeBids() could not be found, or is not accessible. in /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php on line 506
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'placeBids',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /place-bids
+Referer URL: http://localhost/auction
+Client IP: 172.18.0.1
+
+
+2020-09-03 19:32:25 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/place_bid.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/project/templates/Pages/place_bid.php`
+- `/var/www/project/vendor/cakephp/cakephp/templates/Pages/place_bid.php`
+ in Pages/place_bid.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pages/place_bid.php',
+  'paths' => 
+  array (
+    0 => '/var/www/project/templates/',
+    1 => '/var/www/project/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:761
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /place-bid
+Client IP: 172.18.0.1
+
+
+2020-09-03 19:32:30 Error: [Cake\View\Exception\MissingTemplateException] Template file `Pages/place_bid.php` could not be found.
+
+The following paths were searched:
+
+- `/var/www/project/templates/Pages/place_bid.php`
+- `/var/www/project/vendor/cakephp/cakephp/templates/Pages/place_bid.php`
+ in Pages/place_bid.php on line 1354
+Exception Attributes: array (
+  'file' => 'Pages/place_bid.php',
+  'paths' => 
+  array (
+    0 => '/var/www/project/templates/',
+    1 => '/var/www/project/vendor/cakephp/cakephp/templates/',
+  ),
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:761
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /place-bid
+Client IP: 172.18.0.1
+
+
+2020-09-03 19:46:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`smart-coin`.`pending_payments`, CONSTRAINT `FK_pending_payments_waiting_periods` FOREIGN KEY (`waiting_period`) REFERENCES `waiting_periods` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION) in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:74
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:341
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:344
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:2042
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1934
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1835
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1535
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:691
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1536
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php:1836
+- /var/www/project/src/Controller/PagesController.php:115
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /place-bid
+Referer URL: http://localhost/auction
+Client IP: 172.18.0.1
+
+

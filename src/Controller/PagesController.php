@@ -31,6 +31,20 @@ use Cake\View\Exception\MissingTemplateException;
  */
 class PagesController extends AppController
 {
+
+    public function initialize(): void
+    {
+        $this->loadModel('CoinsOnAuction');
+        $this->loadModel('PendingPayments');
+        $this->loadModel('Users');
+        $this->loadModel('Transactions');
+        $this->loadModel('CoinsOnHand');
+        $this->loadModel('WaitingPeriods');
+        parent::initialize();
+
+        $email = $this->Authentication->getIdentityData('email');
+        $this->user = $this->Users->findByEmail($email)->first();
+    }
     /**
      * Displays a view
      *
@@ -73,8 +87,6 @@ class PagesController extends AppController
 
     public function auction()
     {
-        $this->loadModel('CoinsOnAuction');
-        $this->loadModel('PendingPayments');
         $auctions = $this->CoinsOnAuction->find('all')->contain(['Users', 'Users.BankingDetails', 'Users.BankingDetails.Banks'])->toArray();
         $bid = $this->PendingPayments->newEmptyEntity();
         $waitingTimeOptions = [
@@ -83,5 +95,26 @@ class PagesController extends AppController
             3 =>'10 days'
         ];
         $this->set(compact('auctions', 'bid', 'waitingTimeOptions'));
+    }
+
+    public function placeBid()
+    {
+        if ($this->request->is('post')) {
+            $coins_id = $this->request->getData('auction_id');
+            $coin_auction = $this->CoinsOnAuction->get($coins_id);
+            if ($coin_auction) {
+                if ($coin_auction->amount >= $this->request->getData('amount')) {
+                    $coin_auction->amount -= $this->request->getData('amount');
+                    $this->CoinsOnAuction->save($coin_auction);
+                    $payment = $this->PendingPayments->newEmptyEntity();
+                    $payment = $this->PendingPayments->patchEntity($payment, $this->request->getData());
+                    $payment->seller = $coin_auction->user_id;
+                    $payment->buyer = $this->user->id;
+                    $payment->paid = 0;
+                    $this->PendingPayments->save($payment);
+                }
+            }
+        }
+        return $this->redirect('/auction');
     }
 }
