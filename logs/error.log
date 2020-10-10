@@ -5721,3 +5721,336 @@ Referer URL: http://localhost/profile
 Client IP: 172.18.0.1
 
 
+2020-09-15 05:34:37 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/ProfileController.php:24
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payments
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-09-15 05:34:42 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/ProfileController.php:24
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-10-08 16:35:18 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+
+2020-10-08 16:35:35 Error: [Cake\Http\Exception\MissingControllerException] Controller class Login could not be found. in /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php on line 158
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:46
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /login
+Client IP: 172.18.0.1
+
+
+2020-10-08 16:37:41 Error: [Cake\Controller\Exception\MissingActionException] Action ProfileController::confirmPayment() could not be found, or is not accessible. in /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php on line 506
+Exception Attributes: array (
+  'controller' => 'ProfileController',
+  'action' => 'confirmPayment',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/confirm-payment
+Client IP: 172.18.0.1
+
+
+2020-10-08 17:09:25 Error: [ParseError] syntax error, unexpected ';', expecting ']' in /var/www/project/src/Controller/ProfileController.php on line 98
+Stack Trace:
+- /var/www/project/vendor/composer/ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:44
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-10-08 17:09:40 Error: [ParseError] syntax error, unexpected ';', expecting ']' in /var/www/project/src/Controller/ProfileController.php on line 98
+Stack Trace:
+- /var/www/project/vendor/composer/ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:44
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-10-10 18:13:56 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+
+2020-10-10 18:14:30 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+
+2020-10-10 18:14:56 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+
+2020-10-10 18:16:13 Error: [RuntimeException] The identity has not been found. in /var/www/project/vendor/cakephp/authentication/src/Controller/Component/AuthenticationComponent.php on line 254
+Stack Trace:
+- /var/www/project/src/Controller/PagesController.php:45
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:211
+- ReflectionClass::newInstance() - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:56
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Client IP: 172.18.0.1
+
+

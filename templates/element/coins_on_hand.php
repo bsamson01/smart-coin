@@ -16,6 +16,9 @@
 					<td><?= $coin->waiting_period?></td>
 					<td><?= $coin->sell_amount?></td>
 					<td><?= $coin->sell_date->nice()?></td>
+					<td>
+						<form action="/" method="post"></form>
+					</td>
 				</tr>
 			<?php endforeach ?>
 		</table>

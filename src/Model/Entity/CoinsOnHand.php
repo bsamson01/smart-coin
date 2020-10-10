@@ -34,6 +34,7 @@ class CoinsOnHand extends Entity
         'amount' => true,
         'sell_amount' => true,
         'sell_date' => true,
+        'waiting_period' => true,
         'created' => true,
         'modfied' => true,
         'user' => true,

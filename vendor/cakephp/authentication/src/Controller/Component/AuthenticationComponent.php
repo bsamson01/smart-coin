@@ -251,7 +251,7 @@ class AuthenticationComponent extends Component implements EventDispatcherInterf
         $identity = $this->getIdentity();
 
         if ($identity === null) {
-            throw new RuntimeException('The identity has not been found.');
+            return $this->getController()->redirect('/users/login');
         }
 
         return Hash::get($identity, $path);

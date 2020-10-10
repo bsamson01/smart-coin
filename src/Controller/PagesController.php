@@ -92,7 +92,7 @@ class PagesController extends AppController
         $waitingTimeOptions = [
             1 => '3 days',
             2 => '5 days',
-            3 =>'10 days'
+            3 => '10 days'
         ];
         $this->set(compact('auctions', 'bid', 'waitingTimeOptions'));
     }

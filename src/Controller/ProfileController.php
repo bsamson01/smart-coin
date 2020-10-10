@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 namespace App\Controller;
+use Cake\I18n\FrozenTime;
 
 /**
  * Profile Controller
@@ -62,6 +63,7 @@ class ProfileController extends AppController
                         'amount' => $payment->amount,
                         'waiting_time_id' => $payment->waiting_period
                     ];
+
                     $transaction = $this->Transactions->newEmptyEntity();
                     $this->Transactions->patchEntity($transaction, $transactionData);
                     $this->Transactions->save($transaction);
@@ -69,8 +71,8 @@ class ProfileController extends AppController
                     $coinsOnHandData = [
                         'user_id' => $payment->buyer,
                         'amount' => $payment->amount,
-                        'waiting_period' => $payment->waiting_period,
-                        'sell_amount' => $payment->amount * $waitingPeriod->percentage_gain / 100,
+                        'waiting_period' => $waitingPeriod->days,
+                        'sell_amount' => $payment->amount * (( 100 + $waitingPeriod->percentage_gain) / 100),
                         'sell_date' => new \DateTime('+'.$waitingPeriod->days . ' days')
                     ];
                     $coinsOnHand = $this->CoinsOnHand->newEmptyEntity();
@@ -82,6 +84,24 @@ class ProfileController extends AppController
             }
         }
         return $this->redirect($this->referer());
+    }
+
+    public function sellCoins()
+    {
+        if ($this->request->is(['post', 'put'])) {
+            $id = $this->request->getData('id');
+
+            if ($id) {
+                $id = (int)$id;
+                $coinsForSell = $this->CoinsOnHand->findByIdAndUserId($id, $this->user->id)
+                                ->where([
+                                    'sell_date' <= FrozenTime::now()
+                                ])->first();
+                if ($coinsForSell) {
+                    
+                }
+            }
+        }
     }
 
     /**
