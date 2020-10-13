@@ -273,6 +273,12 @@ form input[type='submit'].btn-submit {
     text-transform: initial;
 }
 
+form input[type='submit'].btn-submit:hover {
+    color: #FF7141;
+    background-color: #FFFFFF;
+    border: solid 1px #FF7141;
+}
+
 form select {
     height: 53px;
     border-radius: 14px;
