@@ -1,18 +1,24 @@
 /* Miligram overrides */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
 
 .top-nav-links,
 .side-nav,
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+    font-family: 'Montserrat', "Raleway", sans-serif;
+    font-weight: 700;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
     color: #363637;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 a {
@@ -82,7 +88,7 @@ th {
 }
 .top-nav-title a {
     font-size: 2.4rem;
-    color: #d33c43;
+    color: #21CE99;
 }
 .top-nav-title span {
     color: #404041;
@@ -222,4 +228,57 @@ th {
     .desc:after {
         content: " \2190";
     }
+}
+
+form {
+    margin: auto;
+}
+
+form label  {
+    font-size: 14px;
+    line-height: 18px;
+    color: #0F0F0F;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+form input:not([type='submit']) {
+    padding: 25px 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 #999;
+    border: none;
+    min-width: 300px;
+}
+
+form input:not([type='submit'])::placeholder {
+    font-size: 14px;
+    text-align: center;
+    color: #7A7A7C;
+}
+
+form input[type='submit'].btn-submit {
+    background-color: #FF7141;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 22px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin: auto;
+    border: none;
+    height: unset;
+    display: block;
+    width: 90%;
+    max-width: 320px;
+    text-transform: initial;
+}
+
+form select {
+    height: 53px;
+    border-radius: 14px;
+    box-shadow: 0 1px 2px 0 #999;
+    margin: 31px auto 15px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
 }

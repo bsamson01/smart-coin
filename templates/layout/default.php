@@ -39,15 +39,11 @@
             <a href="<?= $this->Url->build('/') ?>"><span>Smart</span>Coin</a>
         </div>
         <div class="top-nav-links">
-            <?php dd($user); ?>
-            <?php if($loggedIn) : ?>
                 <a rel="noopener" href="/auction">Auction</a>
                 <a rel="noopener" href="/profile">Dashboard</a>
                 <a rel="noopener" href="/users/logout">Logout</a>
-            <?php else : ?>
                 <a rel="noopener" href="/users/login">Login</a>
                 <a rel="noopener" href="/users/register">Register</a>
-            <?php endif ?>
         </div>
     </nav>
     <main class="main">

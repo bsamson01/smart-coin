@@ -6586,3 +6586,35 @@ Referer URL: http://localhost/profile
 Client IP: 172.18.0.1
 
 
+2020-10-13 21:49:51 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /var/www/project/templates/Users/login.php on line 11
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:764
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /users/login
+Referer URL: http://localhost/profile
+Client IP: 172.21.0.1
+
+
