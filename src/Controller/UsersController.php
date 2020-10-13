@@ -15,8 +15,9 @@ class UsersController extends AppController
     public function initialize(): void
     {
         parent::initialize();
-        $this->Authentication->allowUnauthenticated(['login', 'register']);  
-    } 
+        $this->Authentication->allowUnauthenticated(['login', 'register']);
+        $this->loadModel('BankingDetails');
+    }
     /**
      * Index method
      *
@@ -119,7 +120,7 @@ class UsersController extends AppController
         $result = $this->Authentication->getResult();
         // If the user is logged in send them away.
         if ($result->isValid()) {
-            $target = $this->Authentication->getLoginRedirect() ?? '/';
+            $target = $this->Authentication->getLoginRedirect() ?? '/profile';
             return $this->redirect($target);
         }
         if ($this->request->is('post') && !$result->isValid()) {
@@ -131,6 +132,13 @@ class UsersController extends AppController
     {
         $user = $this->Users->newEmptyEntity();
 
+        $result = $this->Authentication->getResult();
+        // If the user is logged in send them away.
+        if ($result->isValid()) {
+            $target = $this->Authentication->getLoginRedirect() ?? '/profile';
+            return $this->redirect($target);
+        }
+
         if ($this->request->is('post')) {
             $existingUser = $this->Users->findByNameOrEmail($this->request->getData('name'), $this->request->getData('email'))->first();
             if($existingUser) {
@@ -138,10 +146,21 @@ class UsersController extends AppController
             }
             $user = $this->Users->patchEntity($user, $this->request->getData());
             if ($this->Users->save($user)) {
-                $this->Flash->success('Users Saved');
+
+                //add banking details to db
+                $bankingDetails = $this->BankingDetails->newEmptyEntity();
+                $bankingDetails->user_id = $user->id;
+                $bankingDetails->bank_id = $this->request->getData('bank_id');
+                $bankingDetails->account_name = $this->request->getData('account_name');
+                $bankingDetails->account_number = $this->request->getData('account_number');
+                $bankingDetails->account_type = $this->request->getData('account_type');
+                $bankingDetails->branch = $this->request->getData('branch');
+
+                if ($this->BankingDetails->save($bankingDetails)) {
+                    $this->Flash->success('User Saved');
+                }
                 $this->redirect(['action' => 'login']);
             }
-            $this->Flash->error('Invalid username or password');
         }
         $this->set(compact('user'));
     }

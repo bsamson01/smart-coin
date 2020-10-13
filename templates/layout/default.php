@@ -39,8 +39,15 @@
             <a href="<?= $this->Url->build('/') ?>"><span>Smart</span>Coin</a>
         </div>
         <div class="top-nav-links">
-            <a rel="noopener" href="https://book.cakephp.org/4/">Documentation</a>
-            <a rel="noopener" href="https://api.cakephp.org/4/">API</a>
+            <?php dd($user); ?>
+            <?php if($loggedIn) : ?>
+                <a rel="noopener" href="/auction">Auction</a>
+                <a rel="noopener" href="/profile">Dashboard</a>
+                <a rel="noopener" href="/users/logout">Logout</a>
+            <?php else : ?>
+                <a rel="noopener" href="/users/login">Login</a>
+                <a rel="noopener" href="/users/register">Register</a>
+            <?php endif ?>
         </div>
     </nav>
     <main class="main">

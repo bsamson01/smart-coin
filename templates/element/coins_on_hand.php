@@ -1,6 +1,6 @@
-<section>
-	<h1>Coins On Hand</h1>
-	<?php if (isset($onHand) && !empty($onHand)) : ?>
+<?php if (isset($onHand) && !empty($onHand)) : ?>
+	<section>
+		<h1>Coins On Hand</h1>
 		<table>
 			<tr>
 				<th>Amount</th>
@@ -15,12 +15,18 @@
 					<td><?= $coin->waiting_period?></td>
 					<td><?= $coin->waiting_period?></td>
 					<td><?= $coin->sell_amount?></td>
-					<td><?= $coin->sell_date->nice()?></td>
 					<td>
-						<form action="/" method="post"></form>
+						<?php if ($coin->ready_for_sale): ?>
+							<?=$this->Form->create($coin, ['action' => '/profile/sell-coins', 'method' => 'post']); ?>
+								<?= $this->Form->hidden('id'); ?>
+								<?= $this->Form->submit('Sell'); ?>
+							<?= $this->Form->end(); ?>
+						<?php else : ?>
+							<?= $coin->sell_date->nice()?>
+						<?php endif ?>
 					</td>
 				</tr>
 			<?php endforeach ?>
 		</table>
-	<?php endif; ?>
-</section>
+	</section>
+<?php endif; ?>

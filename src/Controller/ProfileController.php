@@ -72,7 +72,7 @@ class ProfileController extends AppController
                         'user_id' => $payment->buyer,
                         'amount' => $payment->amount,
                         'waiting_period' => $waitingPeriod->days,
-                        'sell_amount' => $payment->amount * (( 100 + $waitingPeriod->percentage_gain) / 100),
+                        'sell_amount' => (int)($payment->amount * (( 100 + $waitingPeriod->percentage_gain) / 100)),
                         'sell_date' => new \DateTime('+'.$waitingPeriod->days . ' days')
                     ];
                     $coinsOnHand = $this->CoinsOnHand->newEmptyEntity();
@@ -95,13 +95,28 @@ class ProfileController extends AppController
                 $id = (int)$id;
                 $coinsForSell = $this->CoinsOnHand->findByIdAndUserId($id, $this->user->id)
                                 ->where([
-                                    'sell_date' <= FrozenTime::now()
+                                    'sell_date' <= FrozenTime::now(),
                                 ])->first();
                 if ($coinsForSell) {
-                    
+                    $coinsOnAuction = $this->CoinsOnAuction->findByUserId($this->user->id)
+                                    ->where([
+                                        'amount >' => 0,
+                                    ])->first();
+                    if (!$coinsOnAuction)
+                        $coinsOnAuction = $this->CoinsOnAuction->newEmptyEntity();
+                    $coinsOnAuction->amount += $coinsForSell->sell_amount;
+                    if (!$coinsOnAuction->user_id) {
+                        $coinsOnAuction->user_id = $this->user->id;
+                    }
+
+                    if ($this->CoinsOnAuction->save($coinsOnAuction)) {
+                        $this->CoinsOnHand->delete($coinsForSell);
+                    }
                 }
             }
         }
+
+        return $this->redirect($this->referer());
     }
 
     /**

@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
+use Cake\I18n\FrozenTime;
 
 /**
  * CoinsOnHand Entity
@@ -39,4 +40,9 @@ class CoinsOnHand extends Entity
         'modfied' => true,
         'user' => true,
     ];
+
+    protected function _getReadyForSale()
+    {
+        return $this->sell_date <= FrozenTime::now();
+    }
 }

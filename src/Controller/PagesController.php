@@ -87,12 +87,15 @@ class PagesController extends AppController
 
     public function auction()
     {
-        $auctions = $this->CoinsOnAuction->find('all')->contain(['Users', 'Users.BankingDetails', 'Users.BankingDetails.Banks'])->toArray();
+        $auctions = $this->CoinsOnAuction->find('all')
+            ->contain(['Users', 'Users.BankingDetails', 'Users.BankingDetails.Banks'])
+            ->where(['CoinsOnAuction.user_id !=' => $this->user->id])
+            ->toArray();
         $bid = $this->PendingPayments->newEmptyEntity();
         $waitingTimeOptions = [
-            1 => '3 days',
-            2 => '5 days',
-            3 => '10 days'
+            1 => '3 days - 40%',
+            2 => '5 days - 60%',
+            3 => '10 days - 110%'
         ];
         $this->set(compact('auctions', 'bid', 'waitingTimeOptions'));
     }

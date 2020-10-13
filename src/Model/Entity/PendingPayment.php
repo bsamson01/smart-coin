@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace App\Model\Entity;
 
 use Cake\ORM\Entity;
+use Cake\ORM\TableRegistry;
 
 /**
  * PendingPayment Entity
@@ -37,4 +38,17 @@ class PendingPayment extends Entity
         'created' => true,
         'modified' => true,
     ];
+
+    protected function _getCoinBuyer()
+    {
+        $coin_buyer = TableRegistry::get('Users')->findById($this->buyer)->first();
+        return $coin_buyer;
+    }
+
+    protected function _getCoinSeller()
+    {
+        $coin_seller = TableRegistry::get('Users')->findById($this->seller)->contain(['BankingDetails', 'BankingDetails.Banks'])->first();
+        // dd($coin_seller);
+        return $coin_seller;
+    }
 }

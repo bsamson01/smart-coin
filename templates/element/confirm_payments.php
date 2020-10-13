@@ -4,13 +4,15 @@
 		<table>
 			<tr>
 				<th>Amount</th>
-				<th>Buyer</th>
+				<th>Buyer Name</th>
+				<th>Buyer Cellphone</th>
 				<th>Confirm</th>
 			</tr>
 			<?php foreach ($toBePaid as $coin) : ?>
 				<tr>
 					<td><?= $coin->amount ?></td>
-					<td><?= $coin->buyer_name?></td>
+					<td><?= $coin->coin_buyer->full_name?></td>
+					<td><?= $coin->coin_buyer->phone?></td>
 					<td>
 						<?=$this->Form->create($coin, ['action' => '/profile/confirm-payments', 'method' => 'post']); ?>
 							<?= $this->Form->hidden('id'); ?>

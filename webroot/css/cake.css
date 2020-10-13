@@ -193,6 +193,15 @@ th {
     justify-content: center;
 }
 
+.card {
+    border: none;
+}
+
+.card-body {
+    border: solid 1px #d33c43;
+    box-shadow: 4px 4px 4px 4px #d33c43;
+}
+
 @media screen and (max-width: 640px) {
     .top-nav {
         margin: 0 auto;

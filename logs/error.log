@@ -6054,3 +6054,535 @@ Request URL: /
 Client IP: 172.18.0.1
 
 
+2020-10-10 18:51:46 Error: [Error] Call to a member function delete() on null in /var/www/project/src/Controller/ProfileController.php on line 113
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile/sell-coins
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-10-10 18:51:46 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php line=954 in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /profile/sell-coins
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-10-10 18:51:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /profile/sell-coins
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-10-10 18:51:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /profile/sell-coins
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-10-10 18:51:46 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /profile/sell-coins
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-10-10 18:57:40 Error: [InvalidArgumentException] The `Users` association is not defined on `PendingPayments`. in /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php on line 903
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:492
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:318
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:448
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:419
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1142
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1091
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:214
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:284
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:291
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:339
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:344
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1112
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1059
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:309
+- /var/www/project/src/Controller/ProfileController.php:40
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
+2020-10-10 19:25:41 Error: [InvalidArgumentException] The `Bank` association is not defined on `BankingDetails`.
+Valid associations are: Users, Banks in /var/www/project/vendor/cakephp/cakephp/src/ORM/Table.php on line 903
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:492
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:529
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:318
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:448
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/EagerLoader.php:419
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1142
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1091
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php:214
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:284
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:291
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:339
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:344
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1112
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1059
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:443
+- /var/www/project/src/Model/Entity/PendingPayment.php:50
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php:289
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/EntityTrait.php:129
+- /var/www/project/templates/element/make_payment.php:14
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1176
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1668
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:655
+- /var/www/project/templates/Profile/index.php:4
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1176
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:764
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /profile
+Client IP: 172.18.0.1
+
+
+2020-10-10 19:51:52 Error: [Error] Call to a member function newEmptyEntity() on null in /var/www/project/src/Controller/UsersController.php on line 143
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:164
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /users/register
+Referer URL: http://localhost/users/register
+Client IP: 172.18.0.1
+
+
+2020-10-10 19:51:53 Warning: Warning (512): Unable to emit headers. Headers sent in file=/var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php line=954 in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 71]
+Request URL: /users/register
+Referer URL: http://localhost/users/register
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 71
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-10-10 19:51:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 168]
+Request URL: /users/register
+Referer URL: http://localhost/users/register
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE/src/Http/ResponseEmitter.php, line 168
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 74
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-10-10 19:51:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /users/register
+Referer URL: http://localhost/users/register
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-10-10 19:51:53 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /var/www/project/vendor/cakephp/cakephp/src/Error/Debugger.php:954) in [/var/www/project/vendor/cakephp/cakephp/src/Http/ResponseEmitter.php, line 197]
+Request URL: /users/register
+Referer URL: http://localhost/users/register
+Client IP: 172.18.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 188
+DebugKit\Plugin::DebugKit\{closure}() - ROOT/vendor/cakephp/debug_kit/src/Plugin.php, line 105
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE/src/Http/ResponseEmitter.php, line 197
+Cake\Http\ResponseEmitter::emit() - CORE/src/Http/ResponseEmitter.php, line 75
+Cake\Http\Server::emit() - CORE/src/Http/Server.php, line 130
+[main] - ROOT/webroot/index.php, line 40
+
+2020-10-11 09:40:14 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:40:15 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:41:02 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:41:03 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:41:24 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:42:05 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:42:06 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:42:14 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:42:15 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:42:31 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:42:44 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:44:22 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:44:39 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:44:40 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:44:45 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:44:46 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:45:01 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:45:11 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:45:40 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:47:27 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:47:44 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:47:45 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:56:51 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 09:57:01 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:09:49 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:32:22 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /var/www/project/src/Controller/PagesController.php on line 92
+Stack Trace:
+- /var/www/project/vendor/composer/ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:44
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-10-11 10:32:52 Error: [ParseError] syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /var/www/project/src/Controller/PagesController.php on line 92
+Stack Trace:
+- /var/www/project/vendor/composer/ClassLoader.php:322
+- spl_autoload_call - [internal], line ??- class_exists - [internal], line ??- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:161
+- /var/www/project/vendor/cakephp/cakephp/src/Core/App.php:67
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:146
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:44
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /
+Referer URL: http://localhost/users/login
+Client IP: 172.18.0.1
+
+
+2020-10-11 10:33:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '! 4' at line 1 in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:74
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:341
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:344
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1112
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1059
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:309
+- /var/www/project/src/Controller/PagesController.php:93
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-10-11 10:33:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '4' at line 1 in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:74
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:341
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:344
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1112
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1059
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:309
+- /var/www/project/src/Controller/PagesController.php:93
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-10-11 10:34:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '4' at line 1 in /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php on line 39
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/MysqlStatement.php:39
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Statement/StatementDecorator.php:178
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Log/LoggingStatement.php:74
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:341
+- /var/www/project/vendor/cakephp/cakephp/src/Core/Retry/CommandRetry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Connection.php:344
+- /var/www/project/vendor/cakephp/cakephp/src/Database/Query.php:249
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1112
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:292
+- /var/www/project/vendor/cakephp/cakephp/src/ORM/Query.php:1059
+- /var/www/project/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php:309
+- /var/www/project/src/Controller/PagesController.php:93
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:527
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /auction
+Client IP: 172.18.0.1
+
+
+2020-10-11 10:50:21 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:50:22 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:50:25 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:52:10 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:52:11 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:52:21 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:52:36 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:53:00 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:57:53 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:58:22 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:58:24 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:58:27 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:58:40 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:58:46 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 10:58:47 Warning: DebugKit is disabling itself as your host `7239fcd330b1.ngrok.io` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2020-10-11 11:02:19 Error: [Cake\View\Exception\MissingHelperException] Helper class userHelper could not be found. in /var/www/project/vendor/cakephp/cakephp/src/View/HelperRegistry.php on line 132
+Exception Attributes: array (
+  'class' => 'userHelper',
+  'plugin' => NULL,
+)
+Stack Trace:
+- /var/www/project/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php:102
+- /var/www/project/vendor/cakephp/cakephp/src/View/HelperRegistry.php:70
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1089
+- /var/www/project/templates/layout/default.php:42
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1176
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:1134
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:816
+- /var/www/project/vendor/cakephp/cakephp/src/View/View.php:775
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:694
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/Controller.php:536
+- /var/www/project/vendor/cakephp/cakephp/src/Controller/ControllerFactory.php:79
+- /var/www/project/vendor/cakephp/cakephp/src/Http/BaseApplication.php:251
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:77
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/CsrfProtectionMiddleware.php:156
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Middleware/BodyParserMiddleware.php:159
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php:166
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php:68
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php:121
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/authentication/src/Middleware/AuthenticationMiddleware.php:124
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/debug_kit/src/Middleware/DebugKitMiddleware.php:60
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:73
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Runner.php:58
+- /var/www/project/vendor/cakephp/cakephp/src/Http/Server.php:90
+- /var/www/project/webroot/index.php:40
+
+Request URL: /users/login
+Referer URL: http://localhost/profile
+Client IP: 172.18.0.1
+
+
