@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: brandwebs
+  name: smartcoin
+  namespace: default
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: brandwebs
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: brandwebs
+    spec:
+      containers:
+        - image: gcr.io/brandwebs/github.com/bsamson01/smart-coin
+          imagePullPolicy: Always
+          name: smart-coin
+          ports:
+            - containerPort: 8000
+              protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  finalizers:
+    - service.kubernetes.io/load-balancer-cleanup
+  name: smart-coin-svc
+  namespace: default
+spec:
+  clusterIP: 10.111.251.192
+  externalTrafficPolicy: Cluster
+  ports:
+    - nodePort: 31919
+      port: 8000
+      protocol: TCP
+      targetPort: 8000
+  selector:
+    app: brandwebs
+  sessionAffinity: None
+  type: LoadBalancer
