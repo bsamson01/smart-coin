@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: smartcoin
+  labels:
+    #Project ID
+    app: brandwebs
+spec:
+  #Run two instances of our application
+  replicas: 2
+  selector:
+      matchLabels:
+        app: brandwebs
+  template:
+    metadata:
+      labels:
+        app: brandwebs
+    spec:
+      #Container details
+      containers:
+        - name: smart-coin
+          image: gcr.io/brandwebs/smart-coin:0.0.1
+          imagePullPolicy: Always
+          #Ports to expose
+          ports:
+          - containerPort: 8000
