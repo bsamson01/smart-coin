@@ -1,13 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: smartcoin
+  name: smartcoin-2
   labels:
     #Project ID
     app: brandwebs
 spec:
   #Run two instances of our application
-  replicas: 2
+  replicas: 1
   selector:
       matchLabels:
         app: brandwebs
@@ -18,9 +18,12 @@ spec:
     spec:
       #Container details
       containers:
-        - name: smart-coin
-          image: gcr.io/brandwebs/smart-coin:0.0.1
+        - name: smart-coin-2
+          image: gcr.io/brandwebs/smart-coin:latest
           imagePullPolicy: Always
           #Ports to expose
           ports:
-          - containerPort: 8000
+          - containerPort: 800
+          envFrom:
+          - configMapRef:
+              name: app-config

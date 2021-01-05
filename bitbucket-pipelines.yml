@@ -1,0 +1,28 @@
+pipelines:
+  custom:
+    production:
+      - step:
+          image: google/cloud-sdk
+          name: build and deploy
+          deployment: production
+          services:
+            - docker
+          caches:
+            - docker
+          script:
+            - if [ $BITBUCKET_BRANCH != "master" ]; then exit 1; fi
+            - echo $GOOGLE_KEYFILE > keyfile.json
+            - gcloud auth activate-service-account --key-file keyfile.json
+            - gcloud config set project brandwebs
+            - gcloud container clusters get-credentials production --zone europe-west2-a --project brandwebs
+
+            - gcloud auth configure-docker --quiet
+            - export IMAGE=gcr.io/brandwebs/smart-coin:$BITBUCKET_COMMIT
+            - export LATEST=gcr.io/brandwebs/smart-coin:latest
+            - docker build -t $IMAGE . -f docker/apache/Dockerfile
+            - docker push $IMAGE
+            - docker tag $IMAGE $LATEST
+            - docker push $LATEST
+
+            - kubectl set image deployment/app app=$IMAGE
+            - kubectl rollout status deployment/app

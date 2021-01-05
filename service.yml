@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   #Service name
-  name: smart-coin-svc
+  name: smart-coin-svc-02
 spec:
   selector:
     app: brandwebs

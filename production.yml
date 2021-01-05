@@ -1,9 +1,7 @@
 version: '2'
 services:
   apache:
-    build:
-      context: docker/apache
-      dockerfile: Dockerfile
+    build: .
     image: gcr.io/brandwebs/smart-coin:0.0.1
     environment:
       ENV: live
@@ -11,7 +9,5 @@ services:
       DATABASE_USER: root
       DATABASE_NAME: smart-coin
       DATABASE_PASSWORD:
-    volumes:
-      - .:/var/www/project
     ports:
       - "80:80"
