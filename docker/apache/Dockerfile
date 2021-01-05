@@ -16,6 +16,10 @@ ENV DEBIAN_FRONTEND newt
 
 ADD project.conf /etc/apache2/sites-enabled/000-default.conf
 
+RUN mkdir /var/www/project
+COPY . /var/www/project
+
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
+
 CMD ["/start.sh"]
