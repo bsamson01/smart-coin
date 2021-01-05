@@ -21,6 +21,6 @@ RUN mkdir /var/www/project
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
 
-COPY ../../. /var/www/project
+COPY . /var/www/project
 
 CMD ["/start.sh"]
