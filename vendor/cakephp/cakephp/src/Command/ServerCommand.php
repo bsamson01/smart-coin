@@ -39,7 +39,7 @@ class ServerCommand extends Command
      *
      * @var int
      */
-    public const DEFAULT_PORT = 8765;
+    public const DEFAULT_PORT = 8000;
 
     /**
      * server host
